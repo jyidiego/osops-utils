@@ -52,7 +52,7 @@ when "debian"
   ########################################
   default["osops"]["apt_repos"] = {
     "osops" => {
-      "uri" => "http://ppa.launchpad.net/osops-packaging/ppa/ubuntu",
+      "uri" => "http://us.archive.ubuntu.com/ubuntu",
       "distribution" => lsb['codename'],
       "components" => ["main"],
       "keyserver" => "hkp://keyserver.ubuntu.com:80",
